@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewWhere"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/labelWhere"
+        app:layout_constraintEnd_toEndOf="@+id/timeSet"
+        app:layout_constraintStart_toStartOf="@+id/textWhen"
+        app:layout_constraintTop_toBottomOf="@+id/textWhen" />
+
+    <TextView
+        android:id="@+id/textViewWhen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/labelWhen"
+        app:layout_constraintStart_toStartOf="@+id/textWhatToRemind"
+        app:layout_constraintTop_toBottomOf="@+id/textWhatToRemind" />
+
+    <Button
+        android:id="@+id/buttonRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:focusable="auto"
+        android:onClick="handleButtonZapamatovat"
+        android:text="@string/buttonRemember"
+        app:layout_constraintEnd_toEndOf="@+id/timeSet"
+        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintStart_toStartOf="@+id/mapSet"
+        app:layout_constraintTop_toBottomOf="@+id/mapSet" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:focusable="auto"
+        android:onClick="handleButtonZapamatovat"
+        android:text="@string/buttonEdit"
+        app:layout_constraintEnd_toEndOf="@+id/timeSet"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/mapSet"
+        app:layout_constraintTop_toBottomOf="@+id/mapSet" />
+
+    <TextView
+        android:id="@+id/textViewWhatToRemind"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/labelWhatDo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textWhatToRemind"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:ems="10"
+        android:inputType="textShortMessage"
+        app:layout_constraintStart_toStartOf="@+id/textViewWhatToRemind"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWhatToRemind" />
+
+    <EditText
+        android:id="@+id/textWhen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="none"
+        app:layout_constraintStart_toStartOf="@+id/textViewWhen"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWhen" />
+
+    <ImageView
+        android:id="@+id/mapNotSet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="handleImageMapsAction"
+        android:tint="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/timeSet"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewWhere"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWhere"
+        app:srcCompat="@android:drawable/ic_dialog_map"
+        tools:srcCompat="@android:drawable/ic_dialog_map" />
+
+    <ImageView
+        android:id="@+id/mapSet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="handleImageMapsAction"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@+id/timeSet"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewWhere"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWhere"
+        app:srcCompat="@android:drawable/ic_dialog_map"
+        tools:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+    <ImageView
+        android:id="@+id/timeSet"
+        android:layout_width="38dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="showDateTimePicker"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/textWhen"
+        app:layout_constraintStart_toEndOf="@+id/textWhen"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWhen"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+</android.support.constraint.ConstraintLayout>

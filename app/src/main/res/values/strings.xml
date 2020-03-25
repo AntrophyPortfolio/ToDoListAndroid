@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ToDoListVlcek</string>
+    <string name="labelWhatDo">What do you want to remind?</string>
+    <string name="labelWhen">When?</string>
+    <string name="labelWhere">Choose a place for reminder</string>
+    <string name="labelWhichList">Add to:</string>
+    <string name="buttonAdd">Add</string>
+    <string name="buttonRemember">Remember</string>
+    <string name="buttonEdit">Edit</string>
+    <string name="map_api_key">API_KEY</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapSelectLocation">Choose</string>
+    <string name="editTextNow">Now</string>
+    <string name="settings_button">Settings</string>
+    <string name="settings_default_lang_text_view">Language of the app:</string>
+    <string name="settings_proximity_radius_change">Maximum proximity for notification (metres):</string>
+    <string name="settings_ahead_time_notification">Notify ahead of time (minutes):</string>
+    <string name="settings_notifications_enabled">Send notifications:</string>
+    <string name="settings_dark_theme_enabled">Dark theme (beta):</string>
+    <string name="settings_button_choose">Choose</string>
+    <string name="settings_button_save">Save</string>
+    <string name="language_czech">Czech</string>
+    <string name="language_english">English</string>
+    <string name="choose_default_language_dialog_title">Setting a default language</string>
+    <string name="choose_default_language_dialog_message">Are you sure you want to change the default language?</string>
+    <string name="remove_selected_item_from_list_title">Removal of record</string>
+    <string name="remove_selected_item_from_list_message">Do you really want to remove this record?</string>
+    <string name="currently_selected_marker_notify">This place will be used for this record</string>
+    <string name="map_previously_selected_marker">Previously selected</string>
+    <string name="choose_different_list">Lists:</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="notification_dont_forget">Reminder:</string>
+    <string name="distance_from_target_start">You are</string>
+    <string name="distance_from_target_end">metres from this reminder.</string>
+    <string name="appwidget_text">ToDoListVlcek</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

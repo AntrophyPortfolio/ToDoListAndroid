@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoListVlcek</string>
+    <string name="labelWhatDo">Co chcete připomenout?</string>
+    <string name="labelWhen">Kdy?</string>
+    <string name="labelWhere">Vybrat místo upozornění</string>
+    <string name="labelWhichList">Přidat do:</string>
+    <string name="buttonAdd">Přidat</string>
+    <string name="buttonRemember">Zapamatovat</string>
+    <string name="buttonEdit">Upravit</string>
+    <string name="map_api_key">API_KEY</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="mapSelectLocation">Zvolit</string>
+    <string name="editTextNow">Teď</string>
+    <string name="settings_button">Nastavení</string>
+    <string name="settings_default_lang_text_view">Jazyk aplikace: </string>
+    <string name="settings_proximity_radius_change">Maximální vzdálenost upozornění k místu (metry):</string>
+    <string name="settings_ahead_time_notification">Upozornění v předstihu (minuty):</string>
+    <string name="settings_notifications_enabled">Posílat upozornění:</string>
+    <string name="settings_dark_theme_enabled">Tmavý režim (beta):</string>
+    <string name="settings_button_choose">Vybrat</string>
+    <string name="settings_button_save">Uložit</string>
+    <string name="language_czech">Čeština</string>
+    <string name="language_english">Angličtina</string>
+    <string name="choose_default_language_dialog_title">Nastavení výchozího jazyka</string>
+    <string name="choose_default_language_dialog_message">Opravdu chcete změnit výchozí jazyk?</string>
+    <string name="remove_selected_item_from_list_title">Odebrání připommínky</string>
+    <string name="remove_selected_item_from_list_message">Opravdu chcete odebrat tuto připomínku?</string>
+    <string name="choose_different_list">Seznamy:</string>
+    <string name="map_previously_selected_marker">Vybráno předtím</string>
+    <string name="currently_selected_marker_notify">Toto místo bude použito pro připomenutí</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="notification_dont_forget">Upozornění:</string>
+    <string name="distance_from_target_start">Jste</string>
+    <string name="distance_from_target_end">metrů od tohoto upozornění.</string>
+    <string name="appwidget_text">ToDoListVlcek</string>
+    <string name="configure">Konfigurovat</string>
+    <string name="add_widget">Přidat widget</string>
+
+
+
+
+</resources>
