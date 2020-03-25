@@ -3,6 +3,13 @@
 This is a classic ToDoList appllication for android devices, except 
 it's also using your locations for tasks and will remind you to do something, once you are close to a task.
 
+# What I Learned
+
+* Developing Android apps from scratch
+* Using Android Studio
+* Creating multi bilingual UI
+* Working with Google API
+
 # Demonstration screens  
 
 <img src="https://lh3.googleusercontent.com/_ljSuSEt3HR3TcHHJDwuReoY7EsH0FOL9WQnS3_qzEspBlTPbWGX3FzTJO7xFFg5TuCYlITt9epAPIb6sIOWamdgUwMEoSNt-4vp3xtH5wyd5zBYx8dZEY5dB5cN6Fs7_SYG3tm0aQ6FOpJVZDjwCnwNXRPakC2B26-a8fMULRjr8AN36mqujgImxd-1KrDyawHFJqkSf1j0UcZwDU2NMqMLxoJQ-fDKW1n7u_ypKdL4Sn7DBkf8M2OLVDi2rPm1rDN7qNcTDOaUjQ8foWIsxhdw07zTqN7RBN8cH1OoM9Iyhpf19vBjjCtaq54ngwoBqFgEWPLBvWK0YEWZPt1j51gnB_0JYkqfEiLKywg2eXO-ghHs01_tcH4YIWqMz3N63602qV7vIzUsUBmBTkY0SAdKPGejxlS9qUWX__aMmfqRHQHMrDjUOTiuPc1Wza4c5PpKsRS3NBF0K7g-GhDjLJdr_CXN43_-Zo2Wxu0Y3xPZ7LVY1jwXVUgOIASw_ygpRc290gTQe2xrRtOKBSTv5fyZpFzyz3VfEvWDBxEn1L80HluCGFeAsuy64AQhxHTIb5aVherhb4v4bqT3XpQbgk_iqwSkYzJ2c6aeayIkc_UyJVrm18aNKr8TQO9s_zpzyL5M9nIBSf8DDzRQLu0ZKwgaAY_i8RPp33H30w1MuCFuuJDics3ttsM6GdGAZg=w533-h947-no" height="500">
@@ -15,9 +22,4 @@ it's also using your locations for tasks and will remind you to do something, on
 
 <img src="https://lh3.googleusercontent.com/ya0KR-VlWJ4Gsq96BtspMRCnqN_gLrZyFCLWYlxx9oxXSoDUH60gMYJF-4WtXwUjFNBoSqD--S9ucSLC8gTxdpNGLb2NVmidswdI-nkwnleO6sAaA_VR02-_OeUBnfjms08QxyKGaUf3q82n-Yyvf0Ohs-OanoGSoDWq-J36G96cndDhLMoHPF6mXC9YbfgLM-fnZNiHlDIrsCbkTwxGy6V0dOxTjmYlM7YehSxakB7pZtKNNj6hO3Ubd6nGjYKCTRwzF8BnXHDJyACrU3sgu4k0NRrGaere35mxwSUv7Uru62mCpmDAbv5G1hCjjcKF73XxNesz9hnb6VQqd3uQe-RrJptu07xyx-N4Ch-YXiDO_kkaanYm8ShpO8avbasrnBEcSxw4Yz4KoSHs20_YqLEbxp1OJ15eQt5T0MadlR5dmFRePx_gVXAu-YkKLy6679yL9CEupN1WgpakvteKQC69HdT-k-drZL8OmPfIbqSC1wcWRQP6CpAA3afr8NGoxIvx9DQawk9ociJ1DzqC1WQvXXkzbpMv8wZE7Wi8U43YZZA3lSGI12YggwyCsgOSQEz-SBcw1Kzy5UjI4p82C4vdeBIfNY0K6Gmxf04i_9IDXWDfdXEwgyS3rcPUNvgJzDhC5beBwNUKNp0PwU696yKxKusq-1m2m18KzRWy8yeo85rz-VwCcWUnK74REw=w533-h947-no" height="500">
 
-# What I Learned
 
-* Developing Android apps from scratch
-* Using Android Studio
-* Creating multi bilingual UI
-* Working with Google API
